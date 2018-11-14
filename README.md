@@ -18,6 +18,7 @@ compileOnly 'com.android.support.constraint:constraint-layout:1.1.3'
 >-10006	-> 网络错误
 >-10007	-> 交易失败
 >-10008	-> 没有找到转出的钱包
+>-10009 -> 没有安装Starteos钱包
 
 ## 使用
 ### 登录
