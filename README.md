@@ -11,7 +11,8 @@ compileOnly 'com.android.support.constraint:constraint-layout:1.1.3'
     android:theme="@style/transparentActivity" />
 ```
 ## 错误码
->10000 -> 成功
+```json
+ 10000 -> 成功
 -10003 -> params错误
 -10004 -> 用户取消了操作
 -10005	-> 当前没有钱包
@@ -19,6 +20,7 @@ compileOnly 'com.android.support.constraint:constraint-layout:1.1.3'
 -10007	-> 交易失败
 -10008	-> 没有找到转出的钱包
 -10009 -> 没有安装Starteos钱包
+```
 
 ## 使用
 ### 登录
