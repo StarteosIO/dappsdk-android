@@ -2,7 +2,7 @@
 ## 集成
 使用gradle引入sdk
 ```gradle
-compileOnly 'com.android.support.constraint:constraint-layout:1.1.3'
+api 'io.starteos:dappsdk-native:1.0.0'
 ```
 并且在AndroidManifest.xml中配置
 ```xml
