@@ -40,10 +40,10 @@ StarteosSDKHelper.getInstance().execute(this, StarteosLoginEntity("test"), objec
 	"accountName": "visualvisual",
 	"accountAddress": "EOS6k6yWS3mPbQ7AhdfSdvxHPFaJfCe2yFSWsaNK1oioMJq92ccbm"
 }
+```
 `注意：`
 如果登录过，第二次调用登录方法的时候返回上次登录缓存的数据，如果想要每次都拉起钱包重新登录，则需要在此方法之前调用退出登录的方法。
 当转账或自定义合约调用的时候返回-10008，代表用户登录信息失效，此时SDK会清空登录的缓存数据，DApp需要处理此错误，重新调用登录方法。
-```
 ### 转账
 `调用：`
 ```kotlin
