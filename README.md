@@ -2,7 +2,7 @@
 ## 集成
 使用gradle引入sdk
 ```gradle
-api 'io.starteos:dappsdk-native:1.0.2'
+api 'io.starteos:dappsdk-native:1.0.7'
 ```
 并且在AndroidManifest.xml中配置
 ```xml
